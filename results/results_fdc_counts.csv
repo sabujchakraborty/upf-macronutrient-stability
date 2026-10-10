@@ -1,0 +1,11 @@
+"item","value"
+"FDC branded records",1993975
+"distinct barcodes",462636
+"US label versions",875995
+"barcodes with >= 2 label versions and complete macros (pairs)",208716
+"pairs with ingredient text (analysed)",208590
+"UPF_both",145337
+"nonUPF_both",61635
+"switched (excluded)",1618
+"scale-flagged pairs",374
+"median span between versions (days)",765

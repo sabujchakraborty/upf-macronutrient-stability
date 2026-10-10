@@ -1,0 +1,9 @@
+"file","status","max_rel_diff"
+"results_fndds_paired_tests_3sets.csv","matches",0
+"results_ilr_paired.csv","matches",0
+"results_fdc_two_part.csv","matches",9.99e-16
+"results_fdc_two_part_off_confirmed.csv","matches",9.99e-16
+"results_fdc_primary_cluster_robust.csv","matches",4.67e-12
+"results_classifier_validation_off.csv","matches",0
+"results_fdc_gdsn_zero_patterns.csv","matches",0
+"results_fdc_primary_cluster_robust_off_confirmed.csv","matches",2.22e-12

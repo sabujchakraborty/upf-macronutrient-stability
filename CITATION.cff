@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Macronutrient stability in ultra-processed (NOVA 4) foods: analysis pipeline (FNDDS and FoodData Central Branded Foods)"
+version: 1.0.0
+date-released: 2026-10-11
+authors:
+  - family-names: Chakraborty
+    given-names: Sabuj
+license: MIT
+repository-code: "https://github.com/sabujchakraborty/upf-macronutrient-stability."
