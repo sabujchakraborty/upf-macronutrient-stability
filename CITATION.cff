@@ -4,8 +4,8 @@ title: "Macronutrient stability in ultra-processed (NOVA 4) foods: analysis pipe
 version: 1.0.0
 doi: 10.5281/zenodo.23287172
 date-released: 2026-10-11
+license: MIT
+repository-code: "https://github.com/sabujchakraborty/upf-macronutrient-stability"
 authors:
   - family-names: Chakraborty
     given-names: Sabuj
-license: MIT
-repository-code: "https://github.com/sabujchakraborty/upf-macronutrient-stability
