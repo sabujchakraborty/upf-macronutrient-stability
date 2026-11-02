@@ -36,7 +36,7 @@ Each script prints `[OK]` / `[CHECK]` lines comparing key counts with the values
 (for example 12,707 FNDDS rows, 1,118 / 1,101 / 1,060 pairs per set, 208,590 FDC pairs, 374 scale-flagged pairs,
 kappa 0.845). Any `[CHECK]` means something differs and should be looked at before using the results.
 
-## Analysis plan (frozen after exploration; disclosed in the paper)
+## Analysis plan (fixed before the confirmatory analysis; disclosed in the paper)
 
 - Primary: FNDDS paired tests on set A; Branded Foods LI -> LI, full cohorts, brand-owner cluster-robust, equivalence +/-1% SPD.
 - Sensitivity: FNDDS sets B and C and the ilr coordinates; the GDSN -> GDSN stratum; OFF-confirmed cohorts; margins +/-0.5% and +/-2%.
