@@ -6,7 +6,7 @@
 # you can re-run later steps on their own because every step saves its output.
 # =============================================================================
 steps <- c("01_fndds.R", "02_fdc_extract.R", "03_off_validation.R", "04_fdc_analysis.R",
-           "05_tables_figures.R", "06_compare_with_earlier.R")
+           "05_tables_figures.R", "07_supplementary.R", "06_compare_with_earlier.R")
 script_dir <- getwd()                       # folder holding the scripts
 for (stp in steps) {
   t0 <- Sys.time()

@@ -27,14 +27,19 @@ They consolidate the step-by-step blocks run during the original analysis.
 | 4 | `04_fdc_analysis.R` | source strata, two-part estimand, brand-clustered primary analysis, OFF-confirmed and GDSN sensitivity | `results_fdc_primary_cluster_robust*.csv`, `results_fdc_two_part*.csv` |
 | 5 | `05_tables_figures.R` | formatted manuscript tables, Figure 1 (PDF + 600 dpi PNG) | `table_*.csv`, `fig_fdc_forest.*` |
 | 6 | `06_compare_with_earlier.R` | compares pipeline output with the earlier results files | `reproducibility_check.csv` |
+| 7 | `07_supplementary.R` | scale-screen effect (Table 2b and the unscreened estimates in Section 3.3); size of the classifier-error bias in the UPF - nonUPF contrast | `results_fdc_scale_screen_effect.csv`, `results_classifier_attenuation.csv` |
 
 Slow steps: 02 (about three scans of the 1.4 GB nutrient file and the ingredient file) and the first run of 03 (download).
+
+## Changes in v1.0.1
+
+`07_supplementary.R` added; `run_all.R` now runs it before step 06. Steps 00-06 are unchanged, so every result from v1.0.0 is identical.
 
 ## Built-in checks
 
 Each script prints `[OK]` / `[CHECK]` lines comparing key counts with the values from the original analysis
 (for example 12,707 FNDDS rows, 1,118 / 1,101 / 1,060 pairs per set, 208,590 FDC pairs, 374 scale-flagged pairs,
-kappa 0.845). Any `[CHECK]` means something differs and should be looked at before using the results.
+kappa 0.845; Table 2b percentages and the 0.844 attenuation factor in step 07). Any `[CHECK]` means something differs and should be looked at before using the results.
 
 ## Analysis plan (fixed after exploration and before the confirmatory analysis; disclosed in the paper)
 
